@@ -1,0 +1,21 @@
+
+logging:
+  level:
+    root: INFO
+  org:
+    springframework: INFO
+  io:
+    springfox: INFO
+
+server:
+  port: 8081
+  error:
+    include-binding-errors: always
+    include-exception: false
+    include-message: always
+    include-stacktrace: never
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
